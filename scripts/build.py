@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,html,urllib.parse
 root=Path(__file__).resolve().parents[1]
-pubs=json.loads((root/'data/publications.json').read_text());profile=json.loads((root/'data/profile.json').read_text())
+pubs=[p for p in json.loads((root/'data/publications.json').read_text()) if p.get('type')=='Journal article'];profile=json.loads((root/'data/profile.json').read_text())
 e=html.escape
 cards=[]
 for p in pubs:
