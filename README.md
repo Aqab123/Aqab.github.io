@@ -39,4 +39,4 @@ Upload a square professional photograph to `assets/profile.jpg`, then replace th
 
 ## Updating the CV
 
-Replace `resume.pdf` with the actual downloadable PDF, keeping the filename `resume.pdf` or updating every `resume.pdf` link in `index.html` and `cv.html`. Update the HTML CV in `cv.html` to match the PDF.
+Replace `Aqab_Zahoor_CV.pdf` with the latest CV PDF and keep the filename unchanged, or update every CV link in `index.html` and `cv.html`. The legacy `resume.pdf` copy is retained only for existing bookmarks. Update the HTML CV in `cv.html` to match the PDF.
