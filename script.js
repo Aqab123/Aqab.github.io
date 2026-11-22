@@ -21,12 +21,8 @@ if (year) {
 }
 
 document.querySelectorAll(".animation-card").forEach((card) => {
-  const media = card.querySelector("video");
+  const media = card.querySelector("video, .simulation-media");
   if (!media) return;
-
-  media.controls = true;
-  media.playsInline = true;
-
   const actions = card.querySelector(".animation-body");
   const fullscreenButton = document.createElement("button");
   fullscreenButton.type = "button";
