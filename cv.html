@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae | Aqab Zahoor</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .cv-page { max-width: 850px; margin: 0 auto; padding: 48px 24px 80px; }
+      .cv-header { border-bottom: 4px solid var(--orange); padding-bottom: 24px; }
+      .cv-header h1 { margin: 0; color: var(--maroon); font-size: 2.7rem; }
+      .cv-header p { margin: 6px 0 0; }
+      .cv-actions-page { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; gap: 1rem; }
+      .cv-section { border-bottom: 1px solid var(--line); padding: 24px 0; }
+      .cv-section h2 { color: var(--maroon); font-size: 1.15rem; margin: 0 0 12px; }
+      .cv-section h3 { margin: 0; }
+      .cv-section p { margin: 4px 0; }
+      .cv-section ul { margin: 8px 0; }
+      .placeholder { color: var(--muted); font-style: italic; }
+      @media print {
+        .cv-actions-page { display: none; }
+        .cv-page { max-width: none; padding: 20px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="cv-page">
+      <div class="cv-actions-page">
+        <a class="text-link" href="index.html">← Back to portfolio</a>
+        <div>
+          <a class="button button-secondary" href="Aqab_Zahoor_CV.pdf" download>Download CV PDF</a>
+          <button class="button button-primary" type="button" onclick="window.print()">Print / Save PDF</button>
+        </div>
+      </div>
+      <header class="cv-header">
+        <h1>Aqab Zahoor</h1>
+        <p>Computational Materials R&amp;D · Finite Element Analysis · Additive Manufacturing</p>
+        <p>Blacksburg, Virginia · aqibzahoor312@gmail.com</p>
+      </header>
+
+      <section class="cv-section">
+        <h2>Professional Profile</h2>
+        <p>PhD researcher in Aerospace and Ocean Engineering at Virginia Tech specializing in computational materials engineering, finite element analysis, and materials degradation modeling. Experience with MOOSE-based crystal-plasticity and phase-field models, corrosion fatigue, stress corrosion cracking, powder processing, LPBF research, and microstructural characterization.</p>
+      </section>
+
+      <section class="cv-section">
+        <h2>Education</h2>
+        <h3>PhD, Aerospace Engineering — Virginia Tech</h3>
+        <p>Expected December 2027 · GPA 3.78/4.00</p>
+        <p>Research focus: computational mechanics, crystal plasticity, phase-field modeling</p>
+        <h3 style="margin-top:18px;">MS, Materials Engineering — PIEAS, Pakistan</h3>
+        <p>2019 · Gold Medal · GPA 3.81/4.00</p>
+        <h3 style="margin-top:18px;">BS, Metallurgy &amp; Materials Engineering — University of the Punjab</h3>
+        <p>2015 · Bronze Medal · GPA 3.66/4.00</p>
+      </section>
+
+      <section class="cv-section">
+        <h2>Graduate Research</h2>
+        <h3>Graduate Research Assistant — Virginia Tech</h3>
+        <p>August 2024–Present · Computational Materials Mechanics</p>
+        <ul>
+          <li>Developed coupled crystal-plasticity and phase-field models in MOOSE for stress corrosion cracking and corrosion fatigue.</li>
+          <li>Modeled stress/strain-dependent passive-film rupture and repassivation in LPBF 316L and Al₂O₃-reinforced composites.</li>
+          <li>Built a macro-to-micro FEA workflow that connects anisotropic Hill plasticity with EBSD-informed crystal-plasticity models.</li>
+          <li>Prepared and characterized LPBF composite powder feedstocks and correlated processing, microstructure, tensile, and corrosion data with numerical predictions.</li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Additional Industry &amp; Academic Experience</h2>
+        <h3>Lecturer — Metallurgy &amp; Materials Engineering</h3>
+        <p>PIEAS · November 2019–August 2024</p>
+        <p>Led materials processing and characterization laboratories, supervised seven undergraduate and graduate research theses, and taught seven technical courses.</p>
+        <h3 style="margin-top:18px;">Development Manager — Industrial Valves</h3>
+        <p>West Industrial Concern · 2015–2017</p>
+        <p>Supported industrial valve product development and quality assurance.</p>
+      </section>
+
+      <section class="cv-section">
+        <h2>Selected Publications</h2>
+        <p><strong>Zahoor, A.; Song, J.; Fu, Y.</strong> “Mechanistic modeling of strengthening and stress corrosion cracking in LPBF SS 316L–Al₂O₃ metal matrix nanocomposites.” <em>Modelling and Simulation in Materials Science and Engineering</em> 34 (2026), 065005. DOI: 10.1088/1361-651X/ae93e5</p>
+        <p><strong>Song, J.; Zahoor, A.; Aning, A.; Fu, Y.</strong> “Nanoscale-oxide precipitation and microscale inclusion effects on strength and corrosion of laser powder bed fused 316L with trace Al₂O₃ additions.” <em>Journal of Materials Research and Technology</em> 41 (2026), 6784–6799. DOI: 10.1016/j.jmrt.2026.02.229</p>
+      </section>
+
+      <section class="cv-section">
+        <h2>Technical Expertise</h2>
+        <p>MOOSE · FEA · Crystal plasticity · Phase-field modeling · Nonlinear solid mechanics · Corrosion fatigue · Stress corrosion cracking · Hill anisotropic plasticity · Multiscale modeling · MATLAB · ParaView · STAR-CCM+ · Origin · X’Pert HighScore · LPBF · Powder metallurgy · SEM/EDS · XRD · Metallography</p>
+      </section>
+
+      <section class="cv-section">
+        <h2>Recognition &amp; Professional Service</h2>
+        <p>Co-Principal Investigator — HEC Pakistan NRPU research grant (PKR 9.7 million).</p>
+        <p>Virginia Tech Graduate and Professional Student Senate Senator.</p>
+        <p class="placeholder">Google Scholar, LinkedIn, ORCID, ResearchGate, university email, and additional publication metadata should be added when URLs and details are supplied.</p>
+      </section>
+    </main>
+  </body>
+</html>
