@@ -19,7 +19,7 @@ Open http://127.0.0.1:8000/. The build generates `index.html` from `page.templat
 
 ## Publications
 
-All 17 records on the supplied Scholar profile were matched on November 22, 2026: 13 journal articles, 3 conference papers, and 1 SSRN preprint. The preprint is an earlier version of the JMRT journal paper and is not counted as an additional journal article. Author lists use the supplied CV where Scholar's overview truncates or incompletely indexes them. Exact Scholar item links are retained in `data/publications.json`. DOI links are included only where verified. Filters, free-text search, an accessible result count, and an empty state are implemented in `script.js`.
+The site now displays 18 records: 13 journal articles, 3 conference papers, 1 MS&T 2026 presentation, and 1 SSRN preprint. The 17 original records were matched to the supplied Scholar profile on November 22, 2026. The MS&T entry is a separate conference presentation. The preprint is an earlier version of the JMRT journal paper and is not counted as an additional journal article. Author lists use the supplied CV where Scholar's overview truncates or incompletely indexes them. Exact Scholar item links are retained in `data/publications.json`. DOI links are included only where verified. Filters, free-text search, an accessible result count, and an empty state are implemented in `script.js`.
 
 ## Research GIFs
 
@@ -32,3 +32,7 @@ The existing EBSD and RVE GIFs are embedded in the research descriptions. The se
 This repository uses static root files, so retain the existing Pages configuration. With branch deployment, select Settings → Pages → Deploy from a branch → main / root. All asset links are relative and support `/Aqab.github.io/`.
 
 To publish the redesign, merge the redesign branch into `main` or upload the reviewed changed files. Keep the existing GIFs and `Aqab_Zahoor_CV.pdf`. The legacy `cv.html` and resume downloads remain available. No private Sites upload is involved.
+\n## Contact details
+
+University email and LinkedIn URL are listed in `data/profile.json` and displayed in `page.template.html`. To edit the profile or publications, run `python3 scripts/build.py` and commit the regenerated `index.html`.
+
