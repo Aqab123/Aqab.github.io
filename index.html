@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Academic portfolio of Aqab Zahoor, PhD researcher in Aerospace and Ocean Engineering at Virginia Tech.">
-    <title>Aqab Zahoor | Academic Portfolio</title>
+    <meta name="description" content="Academic portfolio of Aqab Zahoor, PhD researcher in Aerospace and Ocean Engineering at Virginia Tech specializing in computational materials engineering and finite element analysis.">
+    <meta name="theme-color" content="#861f41">
+    <title>Aqab Zahoor | Computational Materials Researcher</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -17,14 +18,15 @@
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
           <span class="sr-only">Toggle navigation</span>
-          <span></span><span></span><span></span>
+          <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
         </button>
         <div class="nav-menu" id="nav-menu">
           <a href="#about">About</a>
           <a href="#research">Research</a>
+          <a href="#animations">Animations</a>
           <a href="#publications">Publications</a>
-          <a href="#experience">Teaching &amp; Experience</a>
-          <a class="nav-cv" href="cv.html">Download CV</a>
+          <a href="#experience">Experience</a>
+          <a href="#cv">CV</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -36,20 +38,20 @@
           <div class="hero-copy">
             <p class="eyebrow">Virginia Tech · Aerospace &amp; Ocean Engineering</p>
             <h1>Aqab <span>Zahoor</span></h1>
-            <p class="hero-role">PhD Researcher</p>
-            <p class="hero-intro">Developing knowledge at the intersection of aerospace and ocean engineering. This site presents my research interests, academic work, and professional experience.</p>
+            <p class="hero-role">PhD Researcher · Computational Materials Engineering</p>
+            <p class="hero-intro">I develop coupled computational models to connect processing and microstructure with mechanical behavior, corrosion, and degradation in metallic materials. My work combines finite element analysis, crystal plasticity, phase-field modeling, and experimental materials research.</p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#research">Explore My Research</a>
-              <a class="button button-secondary" href="cv.html">View CV</a>
+              <a class="button button-primary" href="#research">Explore Research</a>
+              <a class="button button-secondary" href="resume.pdf">Download Resume PDF</a>
             </div>
           </div>
-          <div class="hero-card" aria-label="Academic profile summary">
-            <div class="portrait" aria-hidden="true">
+          <div class="hero-card" aria-label="Professional profile summary">
+            <div class="portrait" aria-label="Professional photograph placeholder">
               <span>AZ</span>
             </div>
-            <p class="profile-label">Research Profile</p>
-            <p>PhD Researcher</p>
+            <p class="profile-label">PhD Researcher</p>
             <p>Virginia Tech</p>
+            <p>Blacksburg, Virginia</p>
           </div>
         </div>
       </section>
@@ -58,30 +60,42 @@
         <div class="section-container">
           <div class="section-heading">
             <p class="eyebrow">About</p>
-            <h2>Academic Profile</h2>
+            <h2>Computational Materials Researcher</h2>
           </div>
           <div class="about-grid">
             <article class="about-copy">
-              <h3>About Me</h3>
-              <p>I am Aqab Zahoor, a PhD researcher in Aerospace and Ocean Engineering at Virginia Tech. My academic interests span engineering research methods and interdisciplinary approaches within aerospace and ocean systems.</p>
-              <p>My full research biography and areas of specialization can be added here as details become available.</p>
+              <h3>Professional Profile</h3>
+              <p>I am Aqab Zahoor, a PhD researcher in Aerospace and Ocean Engineering at Virginia Tech specializing in computational materials engineering, finite element analysis, and materials degradation modeling.</p>
+              <p>My research develops MOOSE-based models of stress corrosion cracking and corrosion fatigue, combining crystal plasticity, phase-field mechanics, and mechanochemical damage with LPBF processing and microstructural characterization. I also build multiscale workflows that transfer macroscopic loading histories into EBSD-informed microscale models.</p>
+              <div class="tag-list" aria-label="Research capabilities">
+                <span>Finite Element Analysis</span><span>Crystal Plasticity</span><span>Phase-Field Modeling</span>
+                <span>MOOSE</span><span>Corrosion Fatigue</span><span>LPBF</span>
+              </div>
             </article>
             <article class="education-card">
               <h3>Education</h3>
               <div class="timeline-item">
                 <span class="timeline-dot" aria-hidden="true"></span>
                 <div>
-                  <h4>Doctor of Philosophy</h4>
-                  <p>Aerospace and Ocean Engineering</p>
-                  <p class="meta">Virginia Tech · In progress</p>
+                  <h4>PhD, Aerospace Engineering</h4>
+                  <p>Virginia Tech</p>
+                  <p class="meta">Expected December 2027 · GPA 3.78/4.00</p>
                 </div>
               </div>
               <div class="timeline-item">
                 <span class="timeline-dot" aria-hidden="true"></span>
                 <div>
-                  <h4>Previous Degree</h4>
-                  <p>Degree, discipline, institution</p>
-                  <p class="meta">Please update this placeholder</p>
+                  <h4>MS, Materials Engineering</h4>
+                  <p>Pakistan Institute of Engineering and Applied Sciences</p>
+                  <p class="meta">2019 · Gold Medal · GPA 3.81/4.00</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <div>
+                  <h4>BS, Metallurgy &amp; Materials Engineering</h4>
+                  <p>University of the Punjab</p>
+                  <p class="meta">2015 · Bronze Medal · GPA 3.66/4.00</p>
                 </div>
               </div>
             </article>
@@ -93,83 +107,242 @@
         <div class="section-container">
           <div class="section-heading">
             <p class="eyebrow">Research</p>
-            <h2>Areas &amp; Projects</h2>
+            <h2>Methods &amp; Applications</h2>
+            <p>Verified areas of current and prior research. Figure placeholders identify locations for approved images that can be added without replacing scientific content.</p>
           </div>
-          <div class="cards-grid">
-            <article class="card">
-              <span class="card-number">01</span>
-              <h3>Research Area</h3>
-              <p>Add your primary aerospace or ocean engineering research area here.</p>
+
+          <div class="research-list">
+            <article class="research-feature">
+              <div class="research-visual" role="img" aria-label="Crystal plasticity finite element research figure placeholder">
+                <span>CPFE Figure</span><small>Upload at assets/research/cpfe.png</small>
+              </div>
+              <div class="research-copy">
+                <p class="research-index">01</p>
+                <h3>Crystal Plasticity Finite Element Modeling (CPFE)</h3>
+                <p>Crystal-scale constitutive modeling is used to resolve orientation-dependent slip, stress concentrations, and heterogeneous deformation. EBSD-informed microstructures connect crystallographic texture to local strain and damage evolution.</p>
+                <ul>
+                  <li>Single-crystal responses for [100], [110], and [111] orientations</li>
+                  <li>Microstructure-informed stress and strain localization</li>
+                  <li>Coupling with macroscale anisotropic plasticity</li>
+                </ul>
+              </div>
             </article>
-            <article class="card">
-              <span class="card-number">02</span>
-              <h3>Research Area</h3>
-              <p>Add a second specialization, method, or application domain here.</p>
+
+            <article class="research-feature reverse">
+              <div class="research-visual" role="img" aria-label="Phase-field stress corrosion cracking figure placeholder">
+                <span>SCC Phase Field</span><small>Upload at assets/research/phase-field.png</small>
+              </div>
+              <div class="research-copy">
+                <p class="research-index">02</p>
+                <h3>Phase-Field Modeling of Stress Corrosion Cracking</h3>
+                <p>A coupled electro-chemo-mechanical phase-field framework represents crack evolution in corrosion-sensitive alloys. The formulation links damage to stress-dependent passive-film rupture and repassivation kinetics.</p>
+                <ul>
+                  <li>Environmentally assisted degradation</li>
+                  <li>Passive-film damage and repassivation</li>
+                  <li>Crack evolution in LPBF and reinforced microstructures</li>
+                </ul>
+              </div>
             </article>
-            <article class="card">
-              <span class="card-number">03</span>
-              <h3>Current Project</h3>
-              <p>Project title and a brief, verified description can be added here. No project details are assumed.</p>
+
+            <article class="research-feature">
+              <div class="research-visual" role="img" aria-label="Corrosion fatigue crack propagation figure placeholder">
+                <span>Fatigue &amp; Crack Propagation</span><small>Upload at assets/research/corrosion-fatigue.png</small>
+              </div>
+              <div class="research-copy">
+                <p class="research-index">03</p>
+                <h3>Corrosion Fatigue and Crack Propagation</h3>
+                <p>Mechanochemical modeling examines how cyclic loading, local chemistry, and reinforcing particles influence crack initiation and propagation. Critical stress and strain histories are used to identify degradation hotspots and fatigue-sensitive regions.</p>
+                <ul>
+                  <li>Cyclic damage and crack-driving mechanisms</li>
+                  <li>Coupled corrosion–mechanical degradation</li>
+                  <li>Microstructure-sensitive propagation paths</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="research-feature reverse">
+              <div class="research-visual" role="img" aria-label="LPBF composite research figure placeholder">
+                <span>LPBF SS316L–Al₂O₃</span><small>Upload at assets/research/lpbf-composite.png</small>
+              </div>
+              <div class="research-copy">
+                <p class="research-index">04</p>
+                <h3>Laser Powder Bed Fusion of SS316L–Al₂O₃ Composites</h3>
+                <p>Computational and experimental work investigates how reinforcement content, particle size, and agglomeration affect strength and stress corrosion cracking in laser powder bed fused 316L composites.</p>
+                <ul>
+                  <li>0.5–4 wt% Al₂O₃ reinforcement studies</li>
+                  <li>Powder feedstock preparation and characterization</li>
+                  <li>Processing–microstructure–property relationships</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="research-feature">
+              <div class="research-visual" role="img" aria-label="Multiscale MOOSE finite element model figure placeholder">
+                <span>Macro–Micro MOOSE</span><small>Upload at assets/research/multiscale-moose.png</small>
+              </div>
+              <div class="research-copy">
+                <p class="research-index">05</p>
+                <h3>Multiscale Finite Element Modeling using MOOSE</h3>
+                <p>A macro-to-micro finite element workflow calibrates Hill anisotropic plasticity, identifies critical loading regions, and transfers local loading histories to EBSD-informed crystal plasticity and damage models.</p>
+                <ul>
+                  <li>Reusable MOOSE-based modeling workflows</li>
+                  <li>Hill anisotropic plasticity calibration</li>
+                  <li>Macro-to-micro load transfer and hotspot analysis</li>
+                </ul>
+              </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="publications">
+      <section class="section" id="animations">
+        <div class="section-container">
+          <div class="section-heading">
+            <p class="eyebrow">Research Animations</p>
+            <h2>Simulation Gallery</h2>
+            <p>Placeholders clearly indicate where approved GIF or MP4 files will appear. Add each file to <code>assets/animations/</code> and update the matching card in <code>index.html</code>.</p>
+          </div>
+          <div class="animation-grid">
+            <article class="animation-card">
+              <div class="media-placeholder"><span>MP4 Placeholder</span><small>CPFE orientation response</small></div>
+              <div class="animation-body">
+                <h3>Crystal Plasticity Orientation Response</h3>
+                <p>Expected visualization: slip activity and stress evolution across crystal orientations.</p>
+                <button class="download-button" type="button" disabled>MP4 not uploaded</button>
+              </div>
+            </article>
+            <article class="animation-card">
+              <div class="media-placeholder"><span>GIF Placeholder</span><small>Phase-field crack evolution</small></div>
+              <div class="animation-body">
+                <h3>Phase-Field SCC Evolution</h3>
+                <p>Expected visualization: environmentally assisted crack growth and repassivation.</p>
+                <button class="download-button" type="button" disabled>GIF not uploaded</button>
+              </div>
+            </article>
+            <article class="animation-card">
+              <div class="media-placeholder"><span>MP4 Placeholder</span><small>Corrosion fatigue</small></div>
+              <div class="animation-body">
+                <h3>Corrosion Fatigue Damage</h3>
+                <p>Expected visualization: cyclic crack-driving field and damage accumulation.</p>
+                <button class="download-button" type="button" disabled>MP4 not uploaded</button>
+              </div>
+            </article>
+            <article class="animation-card">
+              <div class="media-placeholder"><span>MP4 Placeholder</span><small>LPBF composite model</small></div>
+              <div class="animation-body">
+                <h3>LPBF SS316L–Al₂O₃ Composite</h3>
+                <p>Expected visualization: reinforcement-dependent stress and damage fields.</p>
+                <button class="download-button" type="button" disabled>MP4 not uploaded</button>
+              </div>
+            </article>
+            <article class="animation-card">
+              <div class="media-placeholder"><span>GIF Placeholder</span><small>Multiscale load transfer</small></div>
+              <div class="animation-body">
+                <h3>Multiscale MOOSE Workflow</h3>
+                <p>Expected visualization: macro-to-micro load transfer and hotspot identification.</p>
+                <button class="download-button" type="button" disabled>GIF not uploaded</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tinted" id="publications">
         <div class="section-container">
           <div class="section-heading">
             <p class="eyebrow">Scholarship</p>
-            <h2>Publications</h2>
+            <h2>Selected Publications</h2>
+            <p>The CV reports 13 peer-reviewed journal articles and 3 conference papers. Only the two publications with complete details supplied in the source CV are listed below.</p>
           </div>
-          <div class="publication-placeholder">
-            <div class="publication-icon" aria-hidden="true">P</div>
-            <div>
-              <h3>Publication list coming soon</h3>
-              <p>Peer-reviewed articles, conference papers, preprints, and technical reports can be listed here when they are available.</p>
-            </div>
-            <a class="text-link" href="#contact">Send a request <span aria-hidden="true">→</span></a>
+          <div class="publication-list">
+            <article class="publication">
+              <div class="publication-year">2026</div>
+              <div>
+                <h3>Mechanistic modeling of strengthening and stress corrosion cracking in LPBF SS 316L–Al₂O₃ metal matrix nanocomposites</h3>
+                <p class="authors">A. Zahoor, J. Song, Y. Fu</p>
+                <p class="journal">Modelling and Simulation in Materials Science and Engineering · 34 · 065005</p>
+                <div class="publication-actions">
+                  <a href="https://doi.org/10.1088/1361-651X/ae93e5" target="_blank" rel="noopener noreferrer">View DOI</a>
+                  <button type="button" class="pdf-button" disabled>PDF not supplied</button>
+                </div>
+              </div>
+            </article>
+            <article class="publication">
+              <div class="publication-year">2026</div>
+              <div>
+                <h3>Nanoscale-oxide precipitation and microscale inclusion effects on strength and corrosion of laser powder bed fused 316L with trace Al₂O₃ additions</h3>
+                <p class="authors">J. Song, A. Zahoor, A. Aning, Y. Fu</p>
+                <p class="journal">Journal of Materials Research and Technology · 41 · 6784–6799</p>
+                <div class="publication-actions">
+                  <a href="https://doi.org/10.1016/j.jmrt.2026.02.229" target="_blank" rel="noopener noreferrer">View DOI</a>
+                  <button type="button" class="pdf-button" disabled>PDF not supplied</button>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section section-tinted" id="experience">
+      <section class="section" id="experience">
         <div class="section-container">
           <div class="section-heading">
             <p class="eyebrow">Experience</p>
-            <h2>Teaching &amp; Professional Work</h2>
+            <h2>Research, Teaching &amp; Industry</h2>
           </div>
           <div class="experience-grid">
             <article>
-              <h3>Teaching</h3>
+              <h3>Research &amp; Engineering</h3>
               <div class="entry">
-                <span class="entry-date">Placeholder</span>
+                <span class="entry-date">2024–Present</span>
                 <div>
-                  <h4>Course or role title</h4>
-                  <p>Virginia Tech · Institution or department</p>
+                  <h4>Graduate Research Assistant</h4>
+                  <p>Virginia Tech · Computational Materials Mechanics</p>
+                  <p>Develops coupled crystal-plasticity and phase-field models for stress corrosion cracking and corrosion fatigue, and connects MOOSE simulations with LPBF experiments and EBSD-informed microstructures.</p>
+                </div>
+              </div>
+              <div class="entry">
+                <span class="entry-date">2015–2017</span>
+                <div>
+                  <h4>Development Manager — Industrial Valves</h4>
+                  <p>West Industrial Concern · Lahore, Pakistan</p>
+                  <p>Supported product development and quality assurance for industrial valve engineering.</p>
                 </div>
               </div>
             </article>
             <article>
-              <h3>Experience</h3>
+              <h3>Teaching &amp; Academic Leadership</h3>
               <div class="entry">
-                <span class="entry-date">Placeholder</span>
+                <span class="entry-date">2019–2024</span>
                 <div>
-                  <h4>Position or appointment</h4>
-                  <p>Organization · Role details</p>
+                  <h4>Lecturer — Metallurgy &amp; Materials Engineering</h4>
+                  <p>Pakistan Institute of Engineering and Applied Sciences (PIEAS)</p>
+                  <p>Led materials processing and characterization laboratories, supervised seven undergraduate and graduate theses, taught seven technical courses, and supported curriculum assessment and accreditation.</p>
                 </div>
               </div>
             </article>
+          </div>
+          <div class="skills-panel">
+            <h3>Technical Skills</h3>
+            <div class="tag-list">
+              <span>MOOSE</span><span>Finite Element Analysis</span><span>MATLAB</span><span>ParaView</span>
+              <span>STAR-CCM+</span><span>Origin</span><span>X’Pert HighScore</span><span>SEM/EDS</span>
+              <span>XRD</span><span>Metallography</span><span>LPBF</span><span>Powder Metallurgy</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="cv-banner" aria-label="Curriculum vitae">
+      <section class="cv-banner" id="cv" aria-label="Curriculum vitae">
         <div class="section-container cv-banner-inner">
           <div>
             <p class="eyebrow">Curriculum Vitae</p>
-            <h2>Interested in my academic background?</h2>
+            <h2>Academic and industry R&amp;D profile</h2>
+            <p>HTML CV page and downloadable resume PDF are both available.</p>
           </div>
-          <a class="button button-light" href="cv.html">View &amp; Download CV</a>
+          <div class="cv-actions">
+            <a class="button button-light" href="cv.html">View HTML CV</a>
+            <a class="button button-outline-light" href="resume.pdf">Download Resume PDF</a>
+          </div>
         </div>
       </section>
 
@@ -181,16 +354,19 @@
           </div>
           <div class="contact-grid">
             <article class="contact-card">
-              <h3>Email</h3>
-              <a href="mailto:email@example.com">email@example.com</a>
-              <p>Replace with your Virginia Tech email address.</p>
+              <h3>Email &amp; Location</h3>
+              <p><a href="mailto:aqabzahoor@gmail.com">aqabzahoor@gmail.com</a></p>
+              <p>Blacksburg, Virginia, USA</p>
+              <p class="incomplete">Virginia Tech university email address: not supplied.</p>
             </article>
             <article class="contact-card">
-              <h3>Professional Links</h3>
+              <h3>Professional Profiles</h3>
               <div class="social-links">
-                <a href="#" aria-label="LinkedIn profile">LinkedIn</a>
-                <a href="#" aria-label="Google Scholar profile">Google Scholar</a>
-                <a href="#" aria-label="ResearchGate profile">ResearchGate</a>
+                <a href="https://github.com/Aqab123" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="disabled-link">LinkedIn · URL needed</span>
+                <span class="disabled-link">Google Scholar · URL needed</span>
+                <span class="disabled-link">ORCID · URL needed</span>
+                <span class="disabled-link">ResearchGate · URL needed</span>
               </div>
             </article>
           </div>

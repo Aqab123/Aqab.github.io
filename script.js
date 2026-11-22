@@ -19,3 +19,25 @@ const year = document.querySelector("#year");
 if (year) {
   year.textContent = new Date().getFullYear();
 }
+
+document.querySelectorAll(".animation-card").forEach((card) => {
+  const media = card.querySelector("video");
+  if (!media) return;
+
+  media.controls = true;
+  media.playsInline = true;
+
+  const actions = card.querySelector(".animation-body");
+  const fullscreenButton = document.createElement("button");
+  fullscreenButton.type = "button";
+  fullscreenButton.className = "download-button";
+  fullscreenButton.textContent = "Fullscreen";
+  fullscreenButton.addEventListener("click", async () => {
+    try {
+      await media.requestFullscreen();
+    } catch {
+      fullscreenButton.textContent = "Fullscreen unavailable";
+    }
+  });
+  actions.append(fullscreenButton);
+});
