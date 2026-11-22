@@ -10,8 +10,7 @@ e=html.escape
 
 groups=[
     ('Journal articles','journal',lambda p:p['type']=='Journal article'),
-    ('Conference papers & presentations','conference',lambda p:p['type'] in ('Conference paper','Conference presentation')),
-    ('Preprints','preprint',lambda p:p['type']=='Preprint')
+    ('Conference papers & presentations','conference',lambda p:p['type'] in ('Conference paper','Conference presentation'))
 ]
 sections=[]
 for title,group,condition in groups:
